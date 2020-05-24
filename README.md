@@ -1,6 +1,8 @@
 ## Tutorial of C
 * make an editor following as below
     * https://viewsourcecode.org/snaptoken/kilo/index.html
+* original source
+    * https://github.com/antirez/kilo
 
 ## Steps
 - [x] Step 1

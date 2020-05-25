@@ -1,3 +1,10 @@
+#include <unistd.h>
+#include <stdio.h>
+
 int main() {
-    return 1;
+    char c;
+    while(read(STDIN_FILENO, &c, 1) > 0){
+        printf("endless");
+    }
+    return 0;
 }

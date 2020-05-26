@@ -1,10 +1,20 @@
 #include <unistd.h>
 #include <stdio.h>
+#include <termios.h>
+
+void enableRawMode() {
+    struct termios raw;
+    tcgetattr(STDIN_FILENO, &raw);
+    raw.c_lflag &= ~(ECHO);
+    tcsetattr(STDIN_FILENO, TCSAFLUSH, &raw);
+}
 
 int main() {
+    enableRawMode();
+
     char c;
-    while(read(STDIN_FILENO, &c, 1) > 0){
-        printf("endless");
+    while(read(STDIN_FILENO, &c, 1) == 1 && c != 'q'){
+        printf("endless¥n");
     }
     return 0;
 }

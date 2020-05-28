@@ -12,10 +12,10 @@
 - [x] Step 5
 - [x] Step 6
 - [x] Step 7
-- [ ] Step 8
-- [ ] Step 9
-- [ ] Step 10
-- [ ] Step 11
+- [x] Step 8
+- [x] Step 9
+- [x] Step 10
+- [x] Step 11
 - [ ] Step 12
 - [ ] Step 13
 - [ ] Step 14

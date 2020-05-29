@@ -16,10 +16,10 @@
 - [x] Step 9
 - [x] Step 10
 - [x] Step 11
-- [ ] Step 12
-- [ ] Step 13
-- [ ] Step 14
-- [ ] Step 15
+- [x] Step 12
+- [x] Step 13
+- [x] Step 14
+- [x] Step 15
 - [ ] Step 16
 - [ ] Step 17
 - [ ] Step 18

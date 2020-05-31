@@ -24,7 +24,7 @@
 - [x] Step 17
 - [x] Step 18
 - [x] Step 19
-- [ ] Step 20
+- [x] Step 20
 - [ ] Step 21
 - [ ] Step 22
 - [ ] Step 23

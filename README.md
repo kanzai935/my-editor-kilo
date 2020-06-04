@@ -29,11 +29,11 @@
 - [x] Step 22
 - [x] Step 23
 - [x] Step 24
-- [ ] Step 25
-- [ ] Step 26
-- [ ] Step 27
-- [ ] Step 28
-- [ ] Step 29
+- [x] Step 25
+- [x] Step 26
+- [x] Step 27
+- [x] Step 28
+- [x] Step 29
 - [ ] Step 30
 - [ ] Step 31
 - [ ] Step 32

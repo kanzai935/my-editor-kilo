@@ -34,9 +34,9 @@
 - [x] Step 27
 - [x] Step 28
 - [x] Step 29
-- [ ] Step 30
-- [ ] Step 31
-- [ ] Step 32
+- [x] Step 30
+- [x] Step 31
+- [x] Step 32
 - [ ] Step 33
 - [ ] Step 34
 - [ ] Step 35

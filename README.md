@@ -40,11 +40,11 @@
 - [x] Step 33
 - [x] Step 34
 - [x] Step 35
-- [ ] Step 36
-- [ ] Step 37
-- [ ] Step 38
-- [ ] Step 39
-- [ ] Step 40
+- [x] Step 36
+- [x] Step 37
+- [x] Step 38
+- [x] Step 39
+- [x] Step 40
 - [ ] Step 41
 - [ ] Step 42
 - [ ] Step 43

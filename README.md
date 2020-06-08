@@ -50,10 +50,10 @@
 - [x] Step 43
 - [x] Step 44
 - [x] Step 45
-- [ ] Step 46
-- [ ] Step 47
-- [ ] Step 48
-- [ ] Step 49
+- [x] Step 46
+- [x] Step 47
+- [x] Step 48
+- [x] Step 49
 - [ ] Step 50
 - [ ] Step 51
 - [ ] Step 52

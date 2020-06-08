@@ -45,11 +45,11 @@
 - [x] Step 38
 - [x] Step 39
 - [x] Step 40
-- [ ] Step 41
-- [ ] Step 42
-- [ ] Step 43
-- [ ] Step 44
-- [ ] Step 45
+- [x] Step 41
+- [x] Step 42
+- [x] Step 43
+- [x] Step 44
+- [x] Step 45
 - [ ] Step 46
 - [ ] Step 47
 - [ ] Step 48

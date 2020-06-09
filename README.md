@@ -54,11 +54,11 @@
 - [x] Step 47
 - [x] Step 48
 - [x] Step 49
-- [ ] Step 50
-- [ ] Step 51
-- [ ] Step 52
-- [ ] Step 53
-- [ ] Step 54
+- [x] Step 50
+- [x] Step 51
+- [x] Step 52
+- [x] Step 53
+- [x] Step 54
 - [ ] Step 55
 - [ ] Step 56
 - [ ] Step 57

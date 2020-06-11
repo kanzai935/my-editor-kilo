@@ -59,9 +59,9 @@
 - [x] Step 52
 - [x] Step 53
 - [x] Step 54
-- [ ] Step 55
-- [ ] Step 56
-- [ ] Step 57
+- [x] Step 55
+- [x] Step 56
+- [x] Step 57
 - [ ] Step 58
 - [ ] Step 59
 - [ ] Step 60

@@ -62,9 +62,9 @@
 - [x] Step 55
 - [x] Step 56
 - [x] Step 57
-- [ ] Step 58
-- [ ] Step 59
-- [ ] Step 60
+- [x] Step 58
+- [x] Step 59
+- [x] Step 60
 - [ ] Step 61
 - [ ] Step 62
 - [ ] Step 63

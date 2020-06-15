@@ -73,7 +73,7 @@
 - [x] Step 67
 - [x] Step 68
 - [x] Step 69
-- [ ] Step 70
+- [x] Step 70
 - [ ] Step 71
 - [ ] Step 72
 - [ ] Step 73

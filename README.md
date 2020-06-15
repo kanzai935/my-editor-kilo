@@ -69,10 +69,10 @@
 - [x] Step 63
 - [x] Step 64
 - [x] Step 65
-- [ ] Step 66
-- [ ] Step 67
-- [ ] Step 68
-- [ ] Step 69
+- [x] Step 66
+- [x] Step 67
+- [x] Step 68
+- [x] Step 69
 - [ ] Step 70
 - [ ] Step 71
 - [ ] Step 72

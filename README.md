@@ -3,7 +3,6 @@
     * https://viewsourcecode.org/snaptoken/kilo/index.html
 * original source
     * https://github.com/antirez/kilo
-
 ## Steps
 - [x] Step 1
 - [x] Step 2
@@ -89,11 +88,11 @@
 - [x] Step 82
 - [x] Step 83
 - [x] Step 84
-- [ ] Step 85
-- [ ] Step 86
-- [ ] Step 87
-- [ ] Step 88
-- [ ] Step 89
+- [x] Step 85
+- [x] Step 86
+- [x] Step 87
+- [x] Step 88
+- [x] Step 89
 - [ ] Step 90
 - [ ] Step 91
 - [ ] Step 92

@@ -93,17 +93,17 @@
 - [x] Step 87
 - [x] Step 88
 - [x] Step 89
-- [ ] Step 90
-- [ ] Step 91
-- [ ] Step 92
-- [ ] Step 93
-- [ ] Step 94
-- [ ] Step 95
-- [ ] Step 96
-- [ ] Step 97
-- [ ] Step 98
-- [ ] Step 99
-- [ ] Step 100
+- [x] Step 90
+- [x] Step 91
+- [x] Step 92
+- [x] Step 93
+- [x] Step 94
+- [x] Step 95
+- [x] Step 96
+- [x] Step 97
+- [x] Step 98
+- [x] Step 99
+- [x] Step 100
 - [ ] Step 101
 - [ ] Step 102
 - [ ] Step 103

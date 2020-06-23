@@ -104,9 +104,9 @@
 - [x] Step 98
 - [x] Step 99
 - [x] Step 100
-- [ ] Step 101
-- [ ] Step 102
-- [ ] Step 103
+- [x] Step 101
+- [x] Step 102
+- [x] Step 103
 - [ ] Step 104
 - [ ] Step 105
 - [ ] Step 106

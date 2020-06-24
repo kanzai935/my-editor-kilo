@@ -107,7 +107,7 @@
 - [x] Step 101
 - [x] Step 102
 - [x] Step 103
-- [ ] Step 104
+- [x] Step 104
 - [ ] Step 105
 - [ ] Step 106
 - [ ] Step 107

@@ -1,4 +1,4 @@
-## Tutorial of C
+## Content
 * make an editor following as below
     * https://viewsourcecode.org/snaptoken/kilo/index.html
 * original source
@@ -110,7 +110,7 @@
 - [x] Step 104
 - [x] Step 105
 - [x] Step 106
-- [ ] Step 107
+- [x] Step 107
 - [ ] Step 108
 - [ ] Step 109
 - [ ] Step 110
@@ -188,6 +188,5 @@
 - [ ] Step 182
 - [ ] Step 183
 - [ ] Step 184
-
 ### Special Thanks
-Thank you very much for your advise based your experience.
+Thank you for your advise based your experience.

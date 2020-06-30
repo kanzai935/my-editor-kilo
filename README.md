@@ -114,9 +114,9 @@
 - [x] Step 108
 - [x] Step 109
 - [x] Step 110
-- [ ] Step 111
-- [ ] Step 112
-- [ ] Step 113
+- [x] Step 111
+- [x] Step 112
+- [x] Step 113
 - [ ] Step 114
 - [ ] Step 115
 - [ ] Step 116

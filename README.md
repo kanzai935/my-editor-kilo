@@ -122,9 +122,9 @@
 - [x] Step 116
 - [x] Step 117
 - [x] Step 118
-- [ ] Step 119
-- [ ] Step 120
-- [ ] Step 121
+- [x] Step 119
+- [x] Step 120
+- [x] Step 121
 - [ ] Step 122
 - [ ] Step 123
 - [ ] Step 124

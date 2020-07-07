@@ -125,10 +125,10 @@
 - [x] Step 119
 - [x] Step 120
 - [x] Step 121
-- [ ] Step 122
-- [ ] Step 123
-- [ ] Step 124
-- [ ] Step 125
+- [x] Step 122
+- [x] Step 123
+- [x] Step 124
+- [x] Step 125
 - [ ] Step 126
 - [ ] Step 127
 - [ ] Step 128

@@ -129,7 +129,7 @@
 - [x] Step 123
 - [x] Step 124
 - [x] Step 125
-- [ ] Step 126
+- [x] Step 126
 - [ ] Step 127
 - [ ] Step 128
 - [ ] Step 129

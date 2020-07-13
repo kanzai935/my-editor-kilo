@@ -138,10 +138,10 @@
 - [x] Step 132
 - [x] Step 133
 - [x] Step 134
-- [ ] Step 135
-- [ ] Step 136
-- [ ] Step 137
-- [ ] Step 138
+- [x] Step 135
+- [x] Step 136
+- [x] Step 137
+- [x] Step 138
 - [ ] Step 139
 - [ ] Step 140
 - [ ] Step 141

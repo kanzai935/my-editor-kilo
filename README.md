@@ -142,9 +142,9 @@
 - [x] Step 136
 - [x] Step 137
 - [x] Step 138
-- [ ] Step 139
-- [ ] Step 140
-- [ ] Step 141
+- [x] Step 139
+- [x] Step 140
+- [x] Step 141
 - [ ] Step 142
 - [ ] Step 143
 - [ ] Step 144

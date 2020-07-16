@@ -145,7 +145,7 @@
 - [x] Step 139
 - [x] Step 140
 - [x] Step 141
-- [ ] Step 142
+- [x] Step 142
 - [ ] Step 143
 - [ ] Step 144
 - [ ] Step 145

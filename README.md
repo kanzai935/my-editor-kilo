@@ -146,13 +146,13 @@
 - [x] Step 140
 - [x] Step 141
 - [x] Step 142
-- [ ] Step 143
-- [ ] Step 144
-- [ ] Step 145
-- [ ] Step 146
-- [ ] Step 147
-- [ ] Step 148
-- [ ] Step 149
+- [x] Step 143
+- [x] Step 144
+- [x] Step 145
+- [x] Step 146
+- [x] Step 147
+- [x] Step 148
+- [x] Step 149
 - [ ] Step 150
 - [ ] Step 151
 - [ ] Step 152

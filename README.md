@@ -153,9 +153,9 @@
 - [x] Step 147
 - [x] Step 148
 - [x] Step 149
-- [ ] Step 150
-- [ ] Step 151
-- [ ] Step 152
+- [x] Step 150
+- [x] Step 151
+- [x] Step 152
 - [ ] Step 153
 - [ ] Step 154
 - [ ] Step 155

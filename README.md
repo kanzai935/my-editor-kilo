@@ -156,10 +156,10 @@
 - [x] Step 150
 - [x] Step 151
 - [x] Step 152
-- [ ] Step 153
-- [ ] Step 154
-- [ ] Step 155
-- [ ] Step 156
+- [x] Step 153
+- [x] Step 154
+- [x] Step 155
+- [x] Step 156
 - [ ] Step 157
 - [ ] Step 158
 - [ ] Step 159

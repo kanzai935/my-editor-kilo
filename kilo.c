@@ -15,6 +15,8 @@
 /*** defines ***/
 #define CTRL_KEY(k) ((k) & 0x1f)
 #define ABUF_INIT {NULL ,0}
+#define HLDB_ENTRIES (sizeof(HLDB) / sizeof(HLDB[0]))
+#define HL_HIGHLIGHT_NUMBERS (1<<0)
 #define KILO_VERSION "0.0.1"
 #define KILO_TAB_STOP 8
 #define KILO_QUIT_TIMES 3
@@ -42,6 +44,12 @@ enum editorHighlight {
 };
 
 /*** data ***/
+struct editorSyntax {
+    char *filetype;
+    char **filematch;
+    int flags;
+};
+
 typedef struct erow {
     int size;
     int rsize;
@@ -63,10 +71,22 @@ struct editorConfig {
     char *filename;
     char statusmsg[80];
     time_t statusmsg_time;
+    struct editorSyntax *syntax;
     struct termios orig_termios;
 };
 
 struct editorConfig E;
+
+/*** filetypes ***/
+char *C_HL_extensions[] = { ".c", ".h", ".cpp", NULL };
+
+struct editorSyntax HLDB[] = {
+        {
+            "c",
+            C_HL_extensions,
+            HL_HIGHLIGHT_NUMBERS
+        },
+};
 
 /*** prototypes ***/
 void editorSetStatusMessage(const char *fmt, ...);
@@ -607,7 +627,7 @@ void editorDrawStatusBar(struct abuf *ab) {
 
     int len = snprintf(status, sizeof(status), "%.20s - %d lines %s", E.filename ? E.filename : "[No Name]", E.numrows,
                        E.dirty ? "(modified)" : "");
-    int rlen = snprintf(rstatus, sizeof(rstatus), "%d/%d", E.cy + 1, E.numrows);
+    int rlen = snprintf(rstatus, sizeof(rstatus), "%s | %d/%d", E.syntax ? E.syntax->filetype : "no ft", E.cy + 1, E.numrows);
 
     if (len > E.screencols) len = E.screencols;
     abAppend(ab, status, len);
@@ -825,6 +845,7 @@ void initEditor() {
     E.filename = NULL;
     E.statusmsg[0] = '\0';
     E.statusmsg_time = 0;
+    E.syntax = NULL;
 
     if (getWindowSize(&E.screenrows, &E.screencols) == -1) die("getWindowSize");
     E.screenrows -= -2;

@@ -164,10 +164,10 @@
 - [x] Step 158
 - [x] Step 159
 - [x] Step 160
-- [ ] Step 161
-- [ ] Step 162
-- [ ] Step 163
-- [ ] Step 164
+- [x] Step 161
+- [x] Step 162
+- [x] Step 163
+- [x] Step 164
 - [ ] Step 165
 - [ ] Step 166
 - [ ] Step 167

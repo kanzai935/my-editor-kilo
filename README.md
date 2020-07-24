@@ -176,10 +176,10 @@
 - [x] Step 170
 - [x] Step 171
 - [x] Step 172
-- [ ] Step 173
-- [ ] Step 174
-- [ ] Step 175
-- [ ] Step 176
+- [x] Step 173
+- [x] Step 174
+- [x] Step 175
+- [x] Step 176
 - [ ] Step 177
 - [ ] Step 178
 - [ ] Step 179

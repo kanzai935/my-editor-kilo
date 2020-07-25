@@ -41,6 +41,7 @@ enum editorKey {
 enum editorHighlight {
     HL_NORMAL = 0,
     HL_COMMENT,
+    HL_MLCOMMENT,
     HL_KEYWORD1,
     HL_KEYWORD2,
     HL_STRING,
@@ -54,6 +55,8 @@ struct editorSyntax {
     char **filematch;
     char **keywords;
     char *singleline_comment_start;
+    char *multiline_comment_start;
+    char *multiline_comment_end;
     int flags;
 };
 
@@ -96,7 +99,7 @@ struct editorSyntax HLDB[] = {
                 "c",
                 C_HL_extensions,
                 C_HL_keywords,
-                "//",
+                "//", "/*", "*/",
                 HL_HIGHLIGHT_NUMBERS | HL_HIGHLIGHT_STRINGS
         },
 };
@@ -246,10 +249,16 @@ void editorUpdateSyntax(erow *row) {
     char **keywords = E.syntax->keywords;
 
     char *scs = E.syntax->singleline_comment_start;
+    char *mcs = E.syntax->multiline_comment_start;
+    char *mce = E.syntax->multiline_comment_end;
+
     int scs_len = scs ? strlen(scs) : 0;
+    int mcs_len = mcs ? strlen(mcs) : 0;
+    int mce_len = mce ? strlen(mce) : 0;
 
     int prev_sep = 1;
     int in_string = 0;
+    int in_comment = 0;
 
     int i;
     while (i < row->rsize) {
@@ -260,6 +269,27 @@ void editorUpdateSyntax(erow *row) {
             if (!strncmp(&row->render[i], scs, scs_len)) {
                 memset(&row->hl[i], HL_COMMENT, row->rsize - i);
                 break;
+            }
+        }
+
+        if (mcs_len && mce_len && !in_string) {
+            if (in_comment) {
+                row->hl[i] = HL_MLCOMMENT;
+                if (!strncmp(&row->render[i], mce, mce_len)) {
+                    memset(&row->hl[i], HL_MLCOMMENT, mce_len);
+                    i += mce_len;
+                    in_comment = 0;
+                    prev_sep = 1;
+                    continue;
+                } else {
+                    i++;
+                    continue;
+                }
+            } else if (!strncmp(&row->render[i], mcs, mcs_len)) {
+                memset(&row->hl[i], HL_MLCOMMENT, mcs_len);
+                i += mcs_len;
+                in_comment = 1;
+                continue;
             }
         }
 
@@ -322,6 +352,7 @@ int editorSyntaxToColor(int hl) {
         case HL_STRING:
             return 35;
         case HL_COMMENT:
+        case HL_MLCOMMENT:
             return 36;
         default:
             return 37;

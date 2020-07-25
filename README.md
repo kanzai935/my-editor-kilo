@@ -180,10 +180,10 @@
 - [x] Step 174
 - [x] Step 175
 - [x] Step 176
-- [ ] Step 177
-- [ ] Step 178
-- [ ] Step 179
-- [ ] Step 180
+- [x] Step 177
+- [x] Step 178
+- [x] Step 179
+- [x] Step 180
 - [ ] Step 181
 - [ ] Step 182
 - [ ] Step 183
